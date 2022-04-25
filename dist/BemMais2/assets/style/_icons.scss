@@ -1,0 +1,48 @@
+.icon-nav {
+  cursor: pointer;
+  height: 20px;
+}
+
+.icon-nav:hover {
+  filter: brightness(0.8);
+}
+
+.clickable-icon {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.icon-round-nav {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #dbeefd;
+  border: 2px solid #70b9d8;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-round-nav:hover {
+  border: 2px solid #50879e;
+}
+
+.navbar-avatar:hover {
+  border: 2px solid #50879e !important;
+}
+
+.avatar-icon > img {
+  width: 65% !important;
+  height: 65% !important;
+}
+
+.table-icon {
+  color: #d8dbdf;
+  cursor: pointer;
+
+  &:hover {
+    color: #5b6066 !important;
+  }
+}

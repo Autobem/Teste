@@ -1,0 +1,117 @@
+@import "./variables";
+
+h1{
+  font-size: $h1-text; // 38px
+}
+
+h2{
+  font-size: $h2-text; // 30px
+}
+
+h3{
+  font-size: $h3-text; // 24px
+}
+
+h4{
+  font-size: $h4-text; // 20px
+}
+
+h5{
+  font-size: $h5-text; // 18px
+}
+
+.subtitle{
+  font-size: $subtitle; // 16px
+}
+
+.subtitle-sm{
+  font-size: $suttitle-sm; // 14px
+}
+
+.text{
+  font-size: $text; // 12px
+}
+
+.thin-txt{
+  font-weight: 200;
+}
+
+.light-txt{
+  font-weight: 300;
+}
+
+.regular-txt{
+  font-weight: 400;
+}
+
+.medium-txt{
+  font-weight: 500;
+}
+
+.bold-txt{
+  font-weight: 700;
+}
+
+.black-txt{
+  font-weight: 900;
+}
+
+.content-title {
+  color: $secondary-title-color;
+  font-weight: 500;
+  font-size: 1.5rem; // 24px
+}
+
+.bold-label {
+  color: #373a3c;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.bold-label-sm {
+  color: #707A84;
+  font-weight: bold;
+  font-size: 1rem; // 16px
+  margin-bottom: 1rem;
+}
+
+// @media screen and (max-height: 850px){
+//   .content-title{
+//     font-size: 20px;
+//   }
+
+//   h1{
+//     font-size: calc(38px * 0.9);
+//   }
+  
+//   h2{
+//     font-size: calc(30px * 0.9);
+//   }
+  
+//   h3{
+//     font-size: calc(24px * 0.9);
+//   }
+  
+//   h4{
+//     font-size: calc(20px * 0.9);
+//   }
+  
+//   h5{
+//     font-size: calc(18px * 0.9);
+//   }
+  
+//   .subtitle{
+//     font-size: calc(16px * 0.9);
+//   }
+  
+//   .subtitle-sm{
+//     font-size: calc(14px * 0.9);
+//   }
+  
+//   .text{
+//     font-size: calc(12px * 0.9);;
+//   }
+
+// }
+

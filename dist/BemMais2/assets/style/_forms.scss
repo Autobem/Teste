@@ -1,0 +1,129 @@
+.invalid-form-item {
+  border-left: 7px solid #ffcd4e !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: -16px !important;
+  padding-left: 10px !important;
+}
+
+.form-item {
+  border-left: 7px solid transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: -21px;
+  padding-left: 15px;
+}
+
+.form-section {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .section-label {
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    color: #384552;
+  }
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.search-input {
+  padding-left: 39px;
+}
+
+.search-icon {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 28px;
+}
+
+.form-check {
+  label {
+    color: black !important;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.invalid-feedback {
+  position: absolute;
+  font-size: 70%;
+  text-align: right;
+  right: 0;
+}
+
+form {
+  label {
+    font-size: 14px;
+  }
+}
+
+.form-control,
+.input-group-text {
+  height: 40px;
+  border: 1px solid #ced4da;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #f7f7f7;
+  opacity: 1;
+  border: none;
+}
+
+.dropdown-filter {
+  font-weight: bold !important;
+}
+
+@media screen and (max-height: 800px) {
+  .form-group {
+    margin-bottom: 0.5em;
+
+    label {
+      font-size: 12px;
+    }
+  }
+
+  .form-section .section-label {
+    font-size: 18px;
+    margin-bottom: 0.75em;
+  }
+
+  .form-control,
+  .input-group-text {
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+.input-loading {
+  &.spinner-border {
+    font-size: 80%;
+    height: 1.25rem;
+    width: 1.25rem;
+    position: absolute;
+    right: 5%;
+    bottom: 11%;
+  }
+}

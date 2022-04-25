@@ -1,0 +1,79 @@
+.signalRCalculationDialog {
+  mat-dialog-container {
+    padding: 0;
+  }
+
+  .mat-expansion-panel
+    .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled="true"]),
+  .mat-expansion-panel
+    .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled="true"]),
+  .mat-expansion-panel:not(.mat-expanded)
+    .mat-expansion-panel-header:hover:not([aria-disabled="true"]),
+  .mat-expansion-panel-header.mat-expanded:focus,
+  .mat-expansion-panel-header.mat-expanded:hover {
+    background: #01549b;
+  }
+
+  .mat-expansion-panel-header {
+    background-color: #01549b;
+    color: white;
+    height: 50px;
+
+    &:hover {
+      background-color: #01549b;
+    }
+
+    span .header-container {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-size: 15px;
+        margin: 0px 10px 0px 0px;
+      }
+
+      .spinner {
+        margin-right: 15px;
+
+        .mat-progress-spinner {
+          circle,
+          .mat-spinner circle {
+            stroke: white;
+          }
+        }
+      }
+
+      i {
+        position: absolute;
+        right: 25px;
+        font-size: 20px;
+      }
+    }
+
+    .mat-expanded {
+      height: 0px;
+    }
+
+    .mat-expansion-indicator::after {
+      color: white;
+      padding: 4px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .mat-dialog-content {
+    .mat-list-base .mat-list-item .mat-list-item-content,
+    .mat-list-base .mat-list-option .mat-list-item-content {
+      height: 40px;
+      width: 300px;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 14px;
+
+      .fas {
+        cursor: pointer;
+        padding: 5px;
+      }
+    }
+  }
+}

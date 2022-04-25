@@ -1,0 +1,70 @@
+.UpdateFipeModal {
+  width: max-content;
+  .mat-dialog-container {
+    overflow: auto;
+
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    padding: 0 1.53rem 1.53rem;
+    justify-content: center;
+    overflow-x: hidden;
+
+    .mat-dialog-content {
+      border-right: 1px solid #d8dbdf;
+      border-left: 1px solid #d8dbdf;
+      border-bottom: 1px solid #d8dbdf;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      justify-content: center;
+      min-height: 15.625rem;
+      max-height: 36vh;
+    }
+
+    .table-container {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      table.mat-table {
+        width: 95%;
+        height: 100%;
+
+        .mat-header-cell {
+          color: #0683f9;
+          font-size: 0.875rem;
+          font-weight: 500;
+        }
+
+        tr.mat-row:hover {
+          background-color: rgba(6, 131, 249, 0.05);
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      font-family: Roboto;
+      margin-bottom: 1rem;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: #959da6;
+      margin-top: 1rem;
+    }
+
+    // .button {
+    //   margin-right: 2.4rem;
+    // }
+  }
+}

@@ -1,0 +1,53 @@
+.e-query-builder .e-btn-group input:checked + label.e-btn,
+.e-query-builder .e-btn-group .e-btn.e-qb-toggle.e-active-toggle {
+  background: #70b9d8;
+  border-color: #70b9d8;
+  color: #fff;
+}
+.e-query-builder {
+  border: none;
+}
+
+.e-query-builder .e-group-container {
+  padding: 0;
+}
+
+// ::ng-deep {
+//   li.e-item[id$="2"],
+//   li.e-item[id$="4"],
+//   li.e-item[id$="6"],
+//   li.e-item[id$="8"],
+//   li.e-item[id$="0"] {
+//     display: none;
+//   }
+// }
+
+.e-rule-field,
+.e-query-builder .e-rule-container {
+  background: #fff;
+}
+
+.e-query-builder .e-removerule.e-btn.e-round {
+  border: none;
+  color: #63696d;
+}
+
+.e-small .e-btn.e-round .e-btn-icon,
+.e-small.e-btn.e-round .e-btn-icon,
+.e-small .e-css.e-btn.e-round .e-btn-icon,
+.e-small.e-css.e-btn.e-round .e-btn-icon {
+  font-size: 14px;
+}
+
+.e-query-builder .e-group-header .e-dropdown-btn.e-add-btn,
+.e-query-builder .e-group-header .e-deletegroup {
+  background: #63696d;
+  color: #fff;
+}
+
+.e-small .e-btn.e-round .e-btn-icon,
+.e-small.e-btn.e-round .e-btn-icon,
+.e-small .e-css.e-btn.e-round .e-btn-icon,
+.e-small.e-css.e-btn.e-round .e-btn-icon {
+  line-height: 0 !important;
+}

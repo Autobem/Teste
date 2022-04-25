@@ -1,0 +1,31 @@
+.no-focus-outline .form-group input[type="text"]:focus,
+.no-focus-outline .form-group [type="text"].form-control:focus {
+  box-shadow: none;
+}
+
+button:focus,
+*:focus {
+  outline: none !important;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+.btn-link,
+a {
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

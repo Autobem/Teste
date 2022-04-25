@@ -1,0 +1,24 @@
+.checkbox-tree .e-treeview .e-list-item.e-active > .e-text-content .e-list-text,
+.e-treeview .e-list-text {
+  color: #959da6;
+}
+
+.checkbox-tree .e-treeview .e-list-item.e-active > .e-text-content .e-icon-collapsible,
+.e-treeview .e-list-item.e-active > .e-text-content .e-icon-expandable {
+  color: black;
+}
+
+.checkbox-tree .e-treeview .e-list-item.e-active > .e-text-content .e-check {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.checkbox-tree .e-leve-1.e-has-child {
+  font-weight: 500;
+}
+
+.checkbox-tree .e-level-1 > .e-text-content .e-list-text {
+  font-weight: 500;
+  color: #818a91;
+}
